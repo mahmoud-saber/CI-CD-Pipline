@@ -1,4 +1,4 @@
-name: 02-event
+name: 02-event 
 
 on:
   push
