@@ -1,9 +1,15 @@
 name: 03-events-filters
 
 on:
-  pull_request:
-    types:
-      - closed
+  # pull_request:
+  #   types: [closed]
+  #   types:
+  #     - opened
+  #     - closed
+  push:
+    branches:
+    - main
+    - master
 
 jobs:
   print-hello-world:
