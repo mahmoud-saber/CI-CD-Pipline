@@ -10,9 +10,18 @@ on:
     # branches:
     #   - main
     #   - master
-    branches-ignore:
-      - main
-      - master
+    # branches-ignore:
+    #   - main
+    #   - master
+    # tags:
+    #   - 'v*'
+    # tags-ignore:
+    #   - 'v*'
+    # paths:
+    #   - "routes/**" // only trigger if files in the routes directory are changed
+        # - "routes/*" // only trigger if files in the routes directory are changed, but not in subdirectories
+    paths-ignore:
+      - "routes/**"
 
 jobs:
   print-hello-world:
