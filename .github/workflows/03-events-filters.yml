@@ -8,8 +8,8 @@ on:
   #     - closed
   push:
     branches:
-    - main
-    - master
+      - main
+      - master
 
 jobs:
   print-hello-world:
