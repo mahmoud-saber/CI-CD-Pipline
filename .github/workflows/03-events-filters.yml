@@ -7,7 +7,10 @@ on:
   #     - opened
   #     - closed
   push:
-    branches:
+    # branches:
+    #   - main
+    #   - master
+    branches-ignore:
       - main
       - master
 
